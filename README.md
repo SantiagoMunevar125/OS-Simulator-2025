@@ -1,18 +1,11 @@
-## Getting Started
+# Feature: Memory Management – Simulador Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción
+Esta rama implementa el módulo de **gestión de memoria** del simulador. Permite simular cómo se asignan, liberan y gestionan los recursos de memoria de manera dinámica, para mejorar la comprensión del comportamiento interno del sistema.  
+Es ideal para demostrar la interacción entre los componentes del simulador y la memoria disponible, así como la optimización de recursos.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Funcionalidades principales
+- **Asignación dinámica de memoria**: Los objetos del simulador se reservan en memoria según sea necesario.
+- **Liberación de memoria**: Se simula la liberación de recursos cuando los objetos ya no son necesarios.
+- **Visualización de memoria**: Muestra en tiempo real el estado de la memoria del sistema para que el usuario pueda observar el consumo.
+- **Manejo de errores de memoria**: Detecta y notifica intentos de acceso fuera de los límites de memoria disponibles.

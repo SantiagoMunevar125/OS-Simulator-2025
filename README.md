@@ -1,11 +1,10 @@
-# Feature: Memory Management – Simulador Java
+# Feature: File System – Simulador Java
 
 ## Descripción
-Esta rama implementa el módulo de **gestión de memoria** del simulador. Permite simular cómo se asignan, liberan y gestionan los recursos de memoria de manera dinámica, para mejorar la comprensión del comportamiento interno del sistema.  
-Es ideal para demostrar la interacción entre los componentes del simulador y la memoria disponible, así como la optimización de recursos.
+Esta rama implementa el módulo de **gestión de archivos** del simulador. Permite simular operaciones básicas de un sistema de archivos, como creación, lectura, escritura y eliminación de archivos, proporcionando un entorno más completo para la simulación.  
 
 ## Funcionalidades principales
-- **Asignación dinámica de memoria**: Los objetos del simulador se reservan en memoria según sea necesario.
-- **Liberación de memoria**: Se simula la liberación de recursos cuando los objetos ya no son necesarios.
-- **Visualización de memoria**: Muestra en tiempo real el estado de la memoria del sistema para que el usuario pueda observar el consumo.
-- **Manejo de errores de memoria**: Detecta y notifica intentos de acceso fuera de los límites de memoria disponibles.
+- **Creación de archivos y directorios**: Permite generar archivos y carpetas dentro del sistema simulado.
+- **Lectura y escritura**: Simula la lectura y escritura de datos en archivos.
+- **Eliminación y manejo de errores**: Permite eliminar archivos/directorios y notifica intentos inválidos.
+- **Estructura jerárquica de archivos**: Mantiene una estructura de carpetas similar a un sistema real para facilitar la visualización.

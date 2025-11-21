@@ -1,10 +1,28 @@
-# Feature: GUI – Simulador Java
+# Simulador Java – Proyecto Final
 
 ## Descripción
-Esta rama implementa la **interfaz gráfica de usuario (GUI)** para el simulador. Permite interactuar visualmente con los diferentes módulos (memoria, filesystem, CPU, etc.), facilitando la comprensión de su funcionamiento y el seguimiento en tiempo real de la simulación.
+Este proyecto es un **simulador completo en Java**, diseñado para enseñar y demostrar conceptos de sistemas, incluyendo gestión de memoria, sistema de archivos, control de simulación y herramientas para desarrolladores.  
 
-## Funcionalidades principales
-- **Visualización de memoria y filesystem**: Muestra el estado actual de la memoria y archivos en forma gráfica.
-- **Interacción con objetos del simulador**: Permite crear, modificar y eliminar elementos directamente desde la GUI.
-- **Panel de control de simulación**: Botones para iniciar, pausar, reiniciar o avanzar paso a paso la simulación.
-- **Alertas y notificaciones**: Informa sobre errores o eventos importantes de la simulación.
+Se compone de varios módulos independientes que pueden interactuar entre sí, con una interfaz gráfica para facilitar la visualización y la interacción.
+
+## Módulos principales
+
+### 1. Memory Management
+- Asignación y liberación dinámica de memoria.
+- Visualización en tiempo real del consumo de memoria.
+- Manejo de errores y alertas de memoria.
+
+### 2. File System
+- Creación, lectura, escritura y eliminación de archivos y directorios.
+- Estructura jerárquica simulada de carpetas.
+- Manejo de errores y validación de operaciones.
+
+### 3. GUI
+- Paneles visuales para memoria y filesystem.
+- Panel de control de simulación (iniciar, pausar, paso a paso).
+- Alertas y notificaciones en tiempo real.
+
+### 4. Developer Tools
+- Logging avanzado y modo desarrollador.
+- Validación de datos y estructuras internas.
+- Herramientas de prueba independientes para cada módulo.
